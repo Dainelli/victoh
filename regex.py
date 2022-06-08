@@ -1,9 +1,9 @@
 import os, fnmatch
 
 # Find and replace in files in a directory
-ogText = "fh5co-"
+ogText = "<li><a href=\"about.html\">Sobre<\/a><\/li>"
 
-newText = ""
+newText = "" 
 
 
 #The Function
@@ -18,7 +18,7 @@ def findReplace(directory, find, replace, filePattern):
                 f.write(s)
 
 #The Order
-findReplace("/home/zany/ZanyMarketing/CLIENTES/Victoh/website/", ogText, newText, "*.html")
-findReplace("/home/zany/ZanyMarketing/CLIENTES/Victoh/website/", ogText, newText, "*.css")
-findReplace("/home/zany/ZanyMarketing/CLIENTES/Victoh/website/", ogText, newText, "*.scss")
-findReplace("/home/zany/ZanyMarketing/CLIENTES/Victoh/website/", ogText, newText, "*.js")
+findReplace("/home/zany/ZanyMarketing/CLIENTES/Victoh/victoh/", ogText, newText, "*.html")
+findReplace("/home/zany/ZanyMarketing/CLIENTES/Victoh/victoh/", ogText, newText, "*.css")
+findReplace("/home/zany/ZanyMarketing/CLIENTES/Victoh/victoh/", ogText, newText, "*.scss")
+findReplace("/home/zany/ZanyMarketing/CLIENTES/Victoh/victoh/", ogText, newText, "*.js")
