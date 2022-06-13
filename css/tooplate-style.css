@@ -413,9 +413,8 @@ footer {
 .project-item {
   overflow: hidden;
   position: relative;
-
   padding: 0;
-  /**vertical-align: middle;*/
+  vertical-align: middle;
   text-align: center;
 }
 
