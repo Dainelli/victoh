@@ -6636,11 +6636,9 @@ button.close {
 .zany-bg {
   width: 100vw;
   color: white;
-  width: 100vw;
-  height: 5vh;
 }
 .copyright-text {
-  position: fixed;
+  position: relative;
   bottom: 0;
   left: 0;
   right: 0;

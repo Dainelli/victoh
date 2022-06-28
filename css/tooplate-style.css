@@ -580,19 +580,23 @@ footer {
 
 footer {
   padding-top: 120px;
-  padding-bottom: 120px;
+  padding-bottom: 0;
 }
 
 footer h4 {
   padding-top: 12px;
 }
-
+/**
 footer a {
   color: #757575;
 }
-
+*/
 footer .copyright-text {
-  padding-top: 42px;
+  color: white;
+}
+
+footer h1 {
+  font-size: medium;
 }
 
 /*---------------------------------------
