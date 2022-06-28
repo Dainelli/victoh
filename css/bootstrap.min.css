@@ -5724,7 +5724,9 @@ button.list-group-item-danger.active:hover {
   color: inherit;
 }
 .panel-footer {
-  padding: 10px 15px;
+  padding-left: 15px;
+  padding-right: 15px;
+  padding-top: 10px;
   background-color: #f5f5f5;
   border-top: 1px solid #ddd;
   border-bottom-right-radius: 3px;
@@ -6631,12 +6633,14 @@ button.close {
     transform: translate3d(0, 0, 0);
   }
 }
+.zany-bg {
+  width: 100vw;
+  color: white;
+}
 .copyright-text {
   background-color: #2456a3;
   color: white;
   text-align: center;
-  line-height: 7em;
-  height: 7em;
 }
 .carousel-inner > .active,
 .carousel-inner > .next,
