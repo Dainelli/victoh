@@ -6636,11 +6636,18 @@ button.close {
 .zany-bg {
   width: 100vw;
   color: white;
+  width: 100vw;
+  height: 5vh;
 }
 .copyright-text {
-  background-color: #2456a3;
-  color: white;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
   text-align: center;
+  font-size: 1.5em;
+  color: #ffffff;
+  background-color: #2456a3;
 }
 .carousel-inner > .active,
 .carousel-inner > .next,
