@@ -6631,6 +6631,13 @@ button.close {
     transform: translate3d(0, 0, 0);
   }
 }
+.copyright-text {
+  background-color: #2456a3;
+  color: white;
+  text-align: center;
+  line-height: 7em;
+  height: 7em;
+}
 .carousel-inner > .active,
 .carousel-inner > .next,
 .carousel-inner > .prev {
