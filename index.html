@@ -1,537 +1,1403 @@
 <!DOCTYPE html>
-<html lang="pt-PT">
+<html lang="en">
   <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Minimalista - New Amazing HTML5 Template</title>
-    <link rel="stylesheet" href="./css/components.css" />
-    <link rel="stylesheet" href="./css/icons.css" />
-    <link rel="stylesheet" href="./css/responsee.css" />
-    <link rel="stylesheet" href="./owl-carousel/owl.carousel.css" />
-    <link rel="stylesheet" href="./owl-carousel/owl.theme.css" />
-    <link rel="stylesheet" href="./css/lightcase.css" />
-    <!-- CUSTOM STYLE -->
-    <link rel="stylesheet" href="css/template-style.css" />
-    <link
-      href="https://fonts.googleapis.com/css?family=Work+Sans:100,400,600,900&subset=latin-ext"
-      rel="stylesheet"
-    />
-    <script type="text/javascript" src="js/jquery-1.8.3.min.js"></script>
-    <script type="text/javascript" src="js/jquery-ui.min.js"></script>
-  </head>
+    <title>Victoh - Galeria de Arte</title>
 
-  <body class="size-1140">
-    <!-- TOP NAV WITH LOGO -->
-    <div id="page-wrapper">
-      <!-- HEADER -->
-      <header
-        role="banner"
-        class="position-absolute margin-top-30 margin-m-top-0 margin-s-top-0"
-      >
-        <!-- Top Navigation -->
-        <nav
-          class="background-transparent background-transparent-hightlight full-width sticky"
-        >
-          <div class="s-12 l-2">
-            <a href="index.html" class="logo">
-              <!-- Logo version before sticky nav -->
-              <img class="logo-before" src="img/logo.svg" alt="logo" />
-              <!-- Logo version after sticky nav -->
-              <img class="logo-after" src="img/logo.svg" alt="logo" />
-            </a>
-          </div>
-          <div class="s-12 l-10">
-            <div class="top-nav right">
-              <p class="nav-text"></p>
-              <ul class="right chevron">
-                <li><a href="./index.html">Home</a></li>
-                <li><a href="./about.html">About Us</a></li>
-                <li><a href="./contact.html">Contact</a></li>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=Edge" />
+    <meta name="description" content="" />
+    <meta name="keywords" content="" />
+    <meta name="author" content="" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, maximum-scale=1"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Birthstone&display=swap"
+      rel="stylesheet"
+      rel="preload"
+    />
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+    <link rel="stylesheet" href="css/font-awesome.min.css" />
+    <link rel="stylesheet" href="css/magnific-popup.css" />
+
+    <link rel="stylesheet" href="css/owl.theme.css" />
+    <link rel="stylesheet" href="css/owl.carousel.css" />
+
+    <!-- MAIN CSS -->
+    <link rel="stylesheet" href="css/tooplate-style.css" />
+  </head>
+  <body>
+    <!-- PRE LOADER -->
+    <div class="preloader">
+      <div class="spinner">
+        <span class="sk-inner-circle"></span>
+      </div>
+    </div>
+
+    <!-- MENU -->
+    <div class="navbar custom-navbar navbar-fixed-top" role="navigation">
+      <div class="container">
+        <!-- NAVBAR HEADER -->
+        <div class="navbar-header">
+          <button
+            class="navbar-toggle"
+            data-toggle="collapse"
+            data-target=".navbar-collapse"
+          >
+            <span class="icon icon-bar"></span>
+            <span class="icon icon-bar"></span>
+            <span class="icon icon-bar"></span>
+          </button>
+          <!-- lOGO -->
+          <a href="index.html" class="navbar-brand">Victó</a>
+        </div>
+
+        <!-- MENU LINKS -->
+        <div class="collapse navbar-collapse">
+          <ul class="nav navbar-nav navbar-right">
+            <li><a href="#home" class="smoothScroll">Início</a></li>
+            <li><a href="#about" class="smoothScroll">Galeria</a></li>
+            <li><a href="#contact" class="smoothScroll">Contactos</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+
+    <!-- HOME -->
+    <section id="home" class="parallax-section">
+      <div class="overlay"></div>
+      <div class="container">
+        <div class="row">
+          <div class="col-md-8 col-sm-12">
+            <div class="home-text">
+              <h1 class="home-title">Victó</h1>
+              <p></p>
+              <ul class="section-btn">
+                <a href="#about" class="smoothScroll"
+                  ><span data-hover="Descubra Mais">Descubra Mais</span></a
+                >
               </ul>
             </div>
           </div>
-        </nav>
-      </header>
+        </div>
+      </div>
 
-      <!-- MAIN -->
-      <main role="main">
-        <!-- Content -->
-        <article>
-          <header class="section background-white">
-            <div class="line text-center">
-              <h1
-                class="text-dark text-s-size-30 text-m-size-40 text-l-size-headline text-thin text-line-height-1"
-              >
-                Galeria de Arte
-              </h1>
-              <p class="margin-bottom-0 text-size-16 text-dark">
-                Duis autem vel eum iriure dolor in hendrerit in vulputate velit
-                esse molestie consequat, vel illum dolore eu feugiat nulla
-                facilisis.<br />
-                Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed
-                diam nonummy nibh euismod.
-              </p>
+      <!-- Video -->
+      <video controls autoplay loop muted>
+        <source src="videos/school.mp4" type="video/mp4" />
+        O seu navegador da internet não suporta vídeos.
+      </video>
+    </section>
+
+    <!-- ABOUT -->
+    <section id="about" class="parallax-section">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-offset-1 col-md-10 col-sm-12">
+            <div class="about-info">
+              <h2>Galeria de Arte</h2>
+              <h3>
+                Victó por esta via apresenta os seus desenhos e pinturas e
+                agradece, também toda a aprendizagem à Fernanda Almeida no
+                Desenho e à Maria Suzete na Pintura a óleo.
+              </h3>
             </div>
-          </header>
-          <div class="background-white full-width">
-            <div class="s-12 m-6 l-five">
-              <a
-                class="image-with-hover-overlay image-hover-zoom"
-                href="/"
-                title="Portfolio Image"
-              >
-                <div class="image-hover-overlay background-primary">
-                  <div
-                    class="image-hover-overlay-content text-center padding-2x"
-                  >
-                    <h3 class="text-white text-size-20 margin-bottom-10">
-                      Reference Title
-                    </h3>
-                    <p class="text-white text-size-14 margin-bottom-20">
-                      Duis autem vel eum iriure dolor in hendrerit in vulputate
-                      velit esse molestie. Lorem ipsum dolor sit amet,
-                      consectetuer adipiscing elit, sed diam nonummy nibh
-                      euismod.
-                    </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- PROJETOS -->
+    <section id="project" class="parallax-section">
+      <h2 class="title-collection">A Grafite</h2>
+      <div class="container">
+        <div class="row">
+          <div class="col-md-3 col-sm-6">
+            <!-- PEÇA -->
+            <div class="project-item">
+              <a href="images/comboio.webp" class="image-popup">
+                <img
+                  src="images/thumbnails/comboio.webp"
+                  class="img-responsive"
+                  alt="comboio a lápis"
+                  loading="lazy"
+                />
+
+                <div class="project-overlay">
+                  <div class="project-info">
+                    <h1>Comboio (tirar nova fotografia)</h1>
+                    <h3>Clique para ver!</h3>
                   </div>
                 </div>
-                <img class="full-img" src="img/portfolio/thumb-01.jpg" alt="" />
-              </a>
-            </div>
-            <div class="s-12 m-6 l-five">
-              <a
-                class="image-with-hover-overlay image-hover-zoom"
-                href="/"
-                title="Portfolio Image"
-              >
-                <div class="image-hover-overlay background-primary">
-                  <div
-                    class="image-hover-overlay-content text-center padding-2x"
-                  >
-                    <h3 class="text-white text-size-20 margin-bottom-10">
-                      Reference Title
-                    </h3>
-                    <p class="text-white text-size-14 margin-bottom-20">
-                      Duis autem vel eum iriure dolor in hendrerit in vulputate
-                      velit esse molestie. Lorem ipsum dolor sit amet,
-                      consectetuer adipiscing elit, sed diam nonummy nibh
-                      euismod.
-                    </p>
-                  </div>
-                </div>
-                <img class="full-img" src="img/portfolio/thumb-02.jpg" alt="" />
-              </a>
-            </div>
-            <div class="s-12 m-6 l-five">
-              <a
-                class="image-with-hover-overlay image-hover-zoom"
-                href="/"
-                title="Portfolio Image"
-              >
-                <div class="image-hover-overlay background-primary">
-                  <div
-                    class="image-hover-overlay-content text-center padding-2x"
-                  >
-                    <h3 class="text-white text-size-20 margin-bottom-10">
-                      Reference Title
-                    </h3>
-                    <p class="text-white text-size-14 margin-bottom-20">
-                      Duis autem vel eum iriure dolor in hendrerit in vulputate
-                      velit esse molestie. Lorem ipsum dolor sit amet,
-                      consectetuer adipiscing elit, sed diam nonummy nibh
-                      euismod.
-                    </p>
-                  </div>
-                </div>
-                <img class="full-img" src="img/portfolio/thumb-03.jpg" alt="" />
-              </a>
-            </div>
-            <div class="s-12 m-6 l-five">
-              <a
-                class="image-with-hover-overlay image-hover-zoom"
-                href="/"
-                title="Portfolio Image"
-              >
-                <div class="image-hover-overlay background-primary">
-                  <div
-                    class="image-hover-overlay-content text-center padding-2x"
-                  >
-                    <h3 class="text-white text-size-20 margin-bottom-10">
-                      Reference Title
-                    </h3>
-                    <p class="text-white text-size-14 margin-bottom-20">
-                      Duis autem vel eum iriure dolor in hendrerit in vulputate
-                      velit esse molestie. Lorem ipsum dolor sit amet,
-                      consectetuer adipiscing elit, sed diam nonummy nibh
-                      euismod.
-                    </p>
-                  </div>
-                </div>
-                <img class="full-img" src="img/portfolio/thumb-04.jpg" alt="" />
-              </a>
-            </div>
-            <div class="s-12 m-6 l-five">
-              <a
-                class="image-with-hover-overlay image-hover-zoom"
-                href="/"
-                title="Portfolio Image"
-              >
-                <div class="image-hover-overlay background-primary">
-                  <div
-                    class="image-hover-overlay-content text-center padding-2x"
-                  >
-                    <h3 class="text-white text-size-20 margin-bottom-10">
-                      Reference Title
-                    </h3>
-                    <p class="text-white text-size-14 margin-bottom-20">
-                      Duis autem vel eum iriure dolor in hendrerit in vulputate
-                      velit esse molestie. Lorem ipsum dolor sit amet,
-                      consectetuer adipiscing elit, sed diam nonummy nibh
-                      euismod.
-                    </p>
-                  </div>
-                </div>
-                <img class="full-img" src="img/portfolio/thumb-05.jpg" alt="" />
-              </a>
-            </div>
-            <div class="s-12 m-6 l-five">
-              <a
-                class="image-with-hover-overlay image-hover-zoom"
-                href="/"
-                title="Portfolio Image"
-              >
-                <div class="image-hover-overlay background-primary">
-                  <div
-                    class="image-hover-overlay-content text-center padding-2x"
-                  >
-                    <h3 class="text-white text-size-20 margin-bottom-10">
-                      Reference Title
-                    </h3>
-                    <p class="text-white text-size-14 margin-bottom-20">
-                      Duis autem vel eum iriure dolor in hendrerit in vulputate
-                      velit esse molestie. Lorem ipsum dolor sit amet,
-                      consectetuer adipiscing elit, sed diam nonummy nibh
-                      euismod.
-                    </p>
-                  </div>
-                </div>
-                <img class="full-img" src="img/portfolio/thumb-06.jpg" alt="" />
-              </a>
-            </div>
-            <div class="s-12 m-6 l-five">
-              <a
-                class="image-with-hover-overlay image-hover-zoom"
-                href="/"
-                title="Portfolio Image"
-              >
-                <div class="image-hover-overlay background-primary">
-                  <div
-                    class="image-hover-overlay-content text-center padding-2x"
-                  >
-                    <h3 class="text-white text-size-20 margin-bottom-10">
-                      Reference Title
-                    </h3>
-                    <p class="text-white text-size-14 margin-bottom-20">
-                      Duis autem vel eum iriure dolor in hendrerit in vulputate
-                      velit esse molestie. Lorem ipsum dolor sit amet,
-                      consectetuer adipiscing elit, sed diam nonummy nibh
-                      euismod.
-                    </p>
-                  </div>
-                </div>
-                <img class="full-img" src="img/portfolio/thumb-07.jpg" alt="" />
-              </a>
-            </div>
-            <div class="s-12 m-6 l-five">
-              <a
-                class="image-with-hover-overlay image-hover-zoom"
-                href="/"
-                title="Portfolio Image"
-              >
-                <div class="image-hover-overlay background-primary">
-                  <div
-                    class="image-hover-overlay-content text-center padding-2x"
-                  >
-                    <h3 class="text-white text-size-20 margin-bottom-10">
-                      Reference Title
-                    </h3>
-                    <p class="text-white text-size-14 margin-bottom-20">
-                      Duis autem vel eum iriure dolor in hendrerit in vulputate
-                      velit esse molestie. Lorem ipsum dolor sit amet,
-                      consectetuer adipiscing elit, sed diam nonummy nibh
-                      euismod.
-                    </p>
-                  </div>
-                </div>
-                <img class="full-img" src="img/portfolio/thumb-08.jpg" alt="" />
-              </a>
-            </div>
-            <div class="s-12 m-6 l-five">
-              <a
-                class="image-with-hover-overlay image-hover-zoom"
-                href="/"
-                title="Portfolio Image"
-              >
-                <div class="image-hover-overlay background-primary">
-                  <div
-                    class="image-hover-overlay-content text-center padding-2x"
-                  >
-                    <h3 class="text-white text-size-20 margin-bottom-10">
-                      Reference Title
-                    </h3>
-                    <p class="text-white text-size-14 margin-bottom-20">
-                      Duis autem vel eum iriure dolor in hendrerit in vulputate
-                      velit esse molestie. Lorem ipsum dolor sit amet,
-                      consectetuer adipiscing elit, sed diam nonummy nibh
-                      euismod.
-                    </p>
-                  </div>
-                </div>
-                <img class="full-img" src="img/portfolio/thumb-09.jpg" alt="" />
-              </a>
-            </div>
-            <div class="s-12 m-6 l-five">
-              <a
-                class="image-with-hover-overlay image-hover-zoom"
-                href="/"
-                title="Portfolio Image"
-              >
-                <div class="image-hover-overlay background-primary">
-                  <div
-                    class="image-hover-overlay-content text-center padding-2x"
-                  >
-                    <h3 class="text-white text-size-20 margin-bottom-10">
-                      Reference Title
-                    </h3>
-                    <p class="text-white text-size-14 margin-bottom-20">
-                      Duis autem vel eum iriure dolor in hendrerit in vulputate
-                      velit esse molestie. Lorem ipsum dolor sit amet,
-                      consectetuer adipiscing elit, sed diam nonummy nibh
-                      euismod.
-                    </p>
-                  </div>
-                </div>
-                <img class="full-img" src="img/portfolio/thumb-10.jpg" alt="" />
-              </a>
-            </div>
-            <div class="s-12 m-6 l-five">
-              <a
-                class="image-with-hover-overlay image-hover-zoom"
-                href="/"
-                title="Portfolio Image"
-              >
-                <div class="image-hover-overlay background-primary">
-                  <div
-                    class="image-hover-overlay-content text-center padding-2x"
-                  >
-                    <h3 class="text-white text-size-20 margin-bottom-10">
-                      Reference Title
-                    </h3>
-                    <p class="text-white text-size-14 margin-bottom-20">
-                      Duis autem vel eum iriure dolor in hendrerit in vulputate
-                      velit esse molestie. Lorem ipsum dolor sit amet,
-                      consectetuer adipiscing elit, sed diam nonummy nibh
-                      euismod.
-                    </p>
-                  </div>
-                </div>
-                <img class="full-img" src="img/portfolio/thumb-11.jpg" alt="" />
-              </a>
-            </div>
-            <div class="s-12 m-6 l-five">
-              <a
-                class="image-with-hover-overlay image-hover-zoom"
-                href="/"
-                title="Portfolio Image"
-              >
-                <div class="image-hover-overlay background-primary">
-                  <div
-                    class="image-hover-overlay-content text-center padding-2x"
-                  >
-                    <h3 class="text-white text-size-20 margin-bottom-10">
-                      Reference Title
-                    </h3>
-                    <p class="text-white text-size-14 margin-bottom-20">
-                      Duis autem vel eum iriure dolor in hendrerit in vulputate
-                      velit esse molestie. Lorem ipsum dolor sit amet,
-                      consectetuer adipiscing elit, sed diam nonummy nibh
-                      euismod.
-                    </p>
-                  </div>
-                </div>
-                <img class="full-img" src="img/portfolio/thumb-12.jpg" alt="" />
-              </a>
-            </div>
-            <div class="s-12 m-6 l-five">
-              <a
-                class="image-with-hover-overlay image-hover-zoom"
-                href="/"
-                title="Portfolio Image"
-              >
-                <div class="image-hover-overlay background-primary">
-                  <div
-                    class="image-hover-overlay-content text-center padding-2x"
-                  >
-                    <h3 class="text-white text-size-20 margin-bottom-10">
-                      Reference Title
-                    </h3>
-                    <p class="text-white text-size-14 margin-bottom-20">
-                      Duis autem vel eum iriure dolor in hendrerit in vulputate
-                      velit esse molestie. Lorem ipsum dolor sit amet,
-                      consectetuer adipiscing elit, sed diam nonummy nibh
-                      euismod.
-                    </p>
-                  </div>
-                </div>
-                <img class="full-img" src="img/portfolio/thumb-01.jpg" alt="" />
-              </a>
-            </div>
-            <div class="s-12 m-6 l-five">
-              <a
-                class="image-with-hover-overlay image-hover-zoom"
-                href="/"
-                title="Portfolio Image"
-              >
-                <div class="image-hover-overlay background-primary">
-                  <div
-                    class="image-hover-overlay-content text-center padding-2x"
-                  >
-                    <h3 class="text-white text-size-20 margin-bottom-10">
-                      Reference Title
-                    </h3>
-                    <p class="text-white text-size-14 margin-bottom-20">
-                      Duis autem vel eum iriure dolor in hendrerit in vulputate
-                      velit esse molestie. Lorem ipsum dolor sit amet,
-                      consectetuer adipiscing elit, sed diam nonummy nibh
-                      euismod.
-                    </p>
-                  </div>
-                </div>
-                <img class="full-img" src="img/portfolio/thumb-02.jpg" alt="" />
-              </a>
-            </div>
-            <div class="s-12 m-6 l-five">
-              <a
-                class="image-with-hover-overlay image-hover-zoom"
-                href="/"
-                title="Portfolio Image"
-              >
-                <div class="image-hover-overlay background-primary">
-                  <div
-                    class="image-hover-overlay-content text-center padding-2x"
-                  >
-                    <h3 class="text-white text-size-20 margin-bottom-10">
-                      Reference Title
-                    </h3>
-                    <p class="text-white text-size-14 margin-bottom-20">
-                      Duis autem vel eum iriure dolor in hendrerit in vulputate
-                      velit esse molestie. Lorem ipsum dolor sit amet,
-                      consectetuer adipiscing elit, sed diam nonummy nibh
-                      euismod.
-                    </p>
-                  </div>
-                </div>
-                <img class="full-img" src="img/portfolio/thumb-03.jpg" alt="" />
               </a>
             </div>
           </div>
-        </article>
-      </main>
 
-      <!-- FOOTER -->
-      <footer>
-        <!-- Contact Us -->
-        <div class="background-dark padding text-center footer-social">
-          <a
-            class="margin-right-10"
-            target="_blank"
-            href="https://www.facebook.com"
-            ><i class="icon-facebook_circle text-size-30"></i>
-            <span class="text-strong text-white hide-s hide-m"
-              >FACEBOOK</span
-            ></a
-          >
-          <a
-            class="margin-right-10"
-            target="_blank"
-            href="https://www.twitter.com"
-            ><i class="icon-twitter_circle text-size-30"></i>
-            <span class="text-strong text-white hide-s hide-m">TWITTER</span></a
-          >
-          <a
-            class="margin-right-10"
-            target="_blank"
-            href="https://www.instagram.com"
-            ><i class="icon-instagram_circle text-size-30"></i>
-            <span class="text-strong text-white hide-s hide-m"
-              >INSTAGRAM</span
-            ></a
-          >
-          <a target="_blank" href="https://www.linkedin.com"
-            ><i class="icon-linked_in_circle text-size-30"></i>
-            <span class="text-strong text-white hide-s hide-m"
-              >LINKEDIN</span
-            ></a
-          >
+          <div class="col-md-3 col-sm-6">
+            <!-- PEÇA -->
+            <div class="project-item">
+              <a href="images/vaca.webp" class="image-popup">
+                <img
+                  src="images/thumbnails/vaca.webp"
+                  class="img-responsive"
+                  alt="Vaca a lápis"
+                  loading="lazy"
+                />
+
+                <div class="project-overlay">
+                  <div class="project-info">
+                    <h1>Vaca</h1>
+                    <h3>Clique para ver!</h3>
+                  </div>
+                </div>
+              </a>
+            </div>
+          </div>
+
+          <div class="col-md-3 col-sm-6">
+            <!-- PEÇA -->
+            <div class="project-item">
+              <a href="images/cavalo.webp" class="image-popup">
+                <img
+                  src="images/thumbnails/cavalo.webp"
+                  class="img-responsive"
+                  alt="Cavalo a lápis"
+                  loading="lazy"
+                />
+
+                <div class="project-overlay">
+                  <div class="project-info">
+                    <h1>Cavalo</h1>
+                    <h3>Clique para ver!</h3>
+                  </div>
+                </div>
+              </a>
+            </div>
+          </div>
+
+          <div class="col-md-3 col-sm-6">
+            <!-- PEÇA -->
+            <div class="project-item">
+              <a href="images/botas.webp" class="image-popup">
+                <img
+                  src="images/thumbnails/botas.webp"
+                  class="img-responsive"
+                  alt="Botas a lápis"
+                  loading="lazy"
+                />
+
+                <div class="project-overlay">
+                  <div class="project-info">
+                    <h1>Botas</h1>
+                    <h3>Clique para ver!</h3>
+                  </div>
+                </div>
+              </a>
+            </div>
+          </div>
+          <div class="col-md-3 col-sm-6">
+            <!-- PEÇA -->
+            <div class="project-item">
+              <a href="images/senhora_a_beber_agua.webp" class="image-popup">
+                <img
+                  src="images/thumbnails/senhora_a_beber_agua.webp"
+                  class="img-responsive"
+                  alt="Mulher a beber água"
+                  loading="lazy"
+                />
+
+                <div class="project-overlay">
+                  <div class="project-info">
+                    <h1>Com Sede</h1>
+                    <h3>Clique para ver!</h3>
+                  </div>
+                </div>
+              </a>
+            </div>
+          </div>
+          <div class="col-md-3 col-sm-6">
+            <!-- PEÇA -->
+            <div class="project-item">
+              <a href="images/pernas_bailarina.webp" class="image-popup">
+                <img
+                  src="images/thumbnails/pernas_bailarina.webp"
+                  class="img-responsive"
+                  alt="Bailarina"
+                  loading="lazy"
+                />
+
+                <div class="project-overlay">
+                  <div class="project-info">
+                    <h1>Bailarina</h1>
+                    <h3>Clique para ver!</h3>
+                  </div>
+                </div>
+              </a>
+            </div>
+          </div>
+          <div class="col-md-3 col-sm-6">
+            <!-- PEÇA -->
+            <div class="project-item">
+              <a href="images/pernas_bailarina2.webp" class="image-popup">
+                <img
+                  src="images/thumbnails/pernas_bailarina2.webp"
+                  class="img-responsive"
+                  alt="Bailarina"
+                  loading="lazy"
+                />
+
+                <div class="project-overlay">
+                  <div class="project-info">
+                    <h1>Bailarina 2</h1>
+                    <h3>Clique para ver!</h3>
+                  </div>
+                </div>
+              </a>
+            </div>
+          </div>
+
+          <div class="col-md-3 col-sm-6">
+            <!-- PEÇA -->
+            <div class="project-item">
+              <a href="images/cão-halloween.webp" class="image-popup">
+                <img
+                  src="images/thumbnails/cão-halloween.webp"
+                  class="img-responsive"
+                  alt="Cão Mascarado"
+                  loading="lazy"
+                />
+
+                <div class="project-overlay">
+                  <div class="project-info">
+                    <h1>Mel Mascarada</h1>
+                    <h3>Clique para ver!</h3>
+                  </div>
+                </div>
+              </a>
+            </div>
+          </div>
+          <div class="col-md-3 col-sm-6">
+            <!-- PEÇA -->
+            <div class="project-item">
+              <a href="images/cão-cachecol.webp" class="image-popup">
+                <img
+                  src="images/thumbnails/cão-cachecol.webp"
+                  class="img-responsive"
+                  alt="Cão Vestido"
+                  loading="lazy"
+                />
+
+                <div class="project-overlay">
+                  <div class="project-info">
+                    <h1>Mel Vestida</h1>
+                    <h3>Clique para ver!</h3>
+                  </div>
+                </div>
+              </a>
+            </div>
+          </div>
+          <div class="col-md-3 col-sm-6">
+            <!-- PEÇA -->
+            <div class="project-item">
+              <a href="images/mulher-anéis.webp" class="image-popup">
+                <img
+                  src="images/thumbnails/mulher-anéis.webp"
+                  class="img-responsive"
+                  alt="Mulher e Anéis"
+                  loading="lazy"
+                />
+
+                <div class="project-overlay">
+                  <div class="project-info">
+                    <h1>Mulher e os seus Anéis</h1>
+                    <h3>Clique para ver!</h3>
+                  </div>
+                </div>
+              </a>
+            </div>
+          </div>
+
+          <div class="col-md-3 col-sm-6">
+            <!-- PEÇA -->
+            <div class="project-item">
+              <a href="images/mordendo-diamante.webp" class="image-popup">
+                <img
+                  src="images/thumbnails/mordendo-diamante.webp"
+                  class="img-responsive"
+                  alt="Mulher mordendo um Diamante"
+                  loading="lazy"
+                />
+
+                <div class="project-overlay">
+                  <div class="project-info">
+                    <h1>Mordendo um Diamante</h1>
+                    <h3>Clique para ver!</h3>
+                  </div>
+                </div>
+              </a>
+            </div>
+          </div>
+
+          <div class="col-md-3 col-sm-6">
+            <!-- PEÇA -->
+            <div class="project-item">
+              <a href="images/cão.webp" class="image-popup">
+                <img
+                  src="images/thumbnails/cão.webp"
+                  class="img-responsive"
+                  alt="Cão a lápis"
+                  loading="lazy"
+                />
+
+                <div class="project-overlay">
+                  <div class="project-info">
+                    <h1>Pipocas</h1>
+                    <h3>Clique para ver!</h3>
+                  </div>
+                </div>
+              </a>
+            </div>
+          </div>
+          <div class="col-md-3 col-sm-6">
+            <!-- PEÇA -->
+            <div class="project-item">
+              <a href="images/mão.webp" class="image-popup">
+                <img
+                  src="images/thumbnails/mão.webp"
+                  class="img-responsive"
+                  alt="Mão a lápis"
+                  loading="lazy"
+                />
+
+                <div class="project-overlay">
+                  <div class="project-info">
+                    <h1>Mão</h1>
+                    <h3>Clique para ver!</h3>
+                  </div>
+                </div>
+              </a>
+            </div>
+          </div>
+          <div class="col-md-3 col-sm-6">
+            <!-- PEÇA -->
+            <div class="project-item">
+              <a href="images/mão2.webp" class="image-popup">
+                <img
+                  src="images/thumbnails/mão2.webp"
+                  class="img-responsive"
+                  alt="Mão a lápis"
+                  loading="lazy"
+                />
+
+                <div class="project-overlay">
+                  <div class="project-info">
+                    <h1>Lembrei-me</h1>
+                    <h3>Clique para ver!</h3>
+                  </div>
+                </div>
+              </a>
+            </div>
+          </div>
+          <div class="col-md-3 col-sm-6">
+            <!-- PEÇA -->
+            <div class="project-item">
+              <a href="images/olho.webp" class="image-popup">
+                <img
+                  src="images/thumbnails/olho.webp"
+                  class="img-responsive"
+                  alt="Olho a lápis"
+                  loading="lazy"
+                />
+
+                <div class="project-overlay">
+                  <div class="project-info">
+                    <h1>Pescador</h1>
+                    <h3>Clique para ver!</h3>
+                  </div>
+                </div>
+              </a>
+            </div>
+          </div>
+          <div class="col-md-3 col-sm-6">
+            <!-- PEÇA -->
+            <div class="project-item">
+              <a href="images/barco-refletido.webp" class="image-popup">
+                <img
+                  src="images/thumbnails/barco-refletido.webp"
+                  class="img-responsive"
+                  alt="Barco Refletido a lápis"
+                  loading="lazy"
+                />
+
+                <div class="project-overlay">
+                  <div class="project-info">
+                    <h1>À espera</h1>
+                    <h3>Clique para ver!</h3>
+                  </div>
+                </div>
+              </a>
+            </div>
+          </div>
+          <div class="col-md-3 col-sm-6">
+            <!-- PEÇA -->
+            <div class="project-item">
+              <a href="images/barco-reflectido2.webp" class="image-popup">
+                <img
+                  src="images/thumbnails/barco-reflectido2.webp"
+                  class="img-responsive"
+                  alt="Barco Refletido a lápis"
+                  loading="lazy"
+                />
+
+                <div class="project-overlay">
+                  <div class="project-info">
+                    <h1>Preguiçoso</h1>
+                    <h3>Clique para ver!</h3>
+                  </div>
+                </div>
+              </a>
+            </div>
+          </div>
+          <div class="col-md-3 col-sm-6">
+            <!-- PEÇA -->
+            <div class="project-item">
+              <a href="images/barco-reflectido3.webp" class="image-popup">
+                <img
+                  src="images/thumbnails/barco-reflectido3.webp"
+                  class="img-responsive"
+                  alt="Barco Refletido a lápis"
+                  loading="lazy"
+                />
+
+                <div class="project-overlay">
+                  <div class="project-info">
+                    <h1>Tímido</h1>
+                    <h3>Clique para ver!</h3>
+                  </div>
+                </div>
+              </a>
+            </div>
+          </div>
+          <div class="col-md-3 col-sm-6">
+            <!-- PEÇA -->
+            <div class="project-item">
+              <a href="images/barco-reflectido4.webp" class="image-popup">
+                <img
+                  src="images/thumbnails/barco-reflectido4.webp"
+                  class="img-responsive"
+                  alt="Barco Refletido a lápis"
+                  loading="lazy"
+                />
+
+                <div class="project-overlay">
+                  <div class="project-info">
+                    <h1>Vaidoso</h1>
+                    <h3>Clique para ver!</h3>
+                  </div>
+                </div>
+              </a>
+            </div>
+          </div>
+          <div class="col-md-3 col-sm-6">
+            <!-- PEÇA -->
+            <div class="project-item">
+              <a href="images/retrato-mulher.webp" class="image-popup">
+                <img
+                  src="images/thumbnails/retrato-mulher.webp"
+                  class="img-responsive"
+                  alt="Retrato Mulher a lápis"
+                  loading="lazy"
+                />
+
+                <div class="project-overlay">
+                  <div class="project-info">
+                    <h1>Avó Alice</h1>
+                    <h3>Clique para ver!</h3>
+                  </div>
+                </div>
+              </a>
+            </div>
+          </div>
+
+          <div class="col-md-3 col-sm-6">
+            <!-- PEÇA -->
+            <div class="project-item">
+              <a href="images/retrato-mulher2.webp" class="image-popup">
+                <img
+                  src="images/thumbnails/retrato-mulher2.webp"
+                  class="img-responsive"
+                  alt="Retrato Mulher a lápis"
+                  loading="lazy"
+                />
+
+                <div class="project-overlay">
+                  <div class="project-info">
+                    <h1>Odete</h1>
+                    <h3>Clique para ver!</h3>
+                  </div>
+                </div>
+              </a>
+            </div>
+          </div>
+          <div class="col-md-3 col-sm-6">
+            <!-- PEÇA -->
+            <div class="project-item">
+              <a href="images/flor3.webp" class="image-popup">
+                <img
+                  src="images/thumbnails/flor3.webp"
+                  class="img-responsive"
+                  alt="Flor a lápis"
+                  loading="lazy"
+                />
+
+                <div class="project-overlay">
+                  <div class="project-info">
+                    <h1>Flor 2</h1>
+                    <h3>Clique para ver!</h3>
+                  </div>
+                </div>
+              </a>
+            </div>
+          </div>
+
+          <div class="col-md-3 col-sm-6">
+            <!-- PEÇA -->
+            <div class="project-item">
+              <a href="images/flor5.webp" class="image-popup">
+                <img
+                  src="images/thumbnails/flor5.webp"
+                  class="img-responsive"
+                  alt="Flor a lápis"
+                  loading="lazy"
+                />
+
+                <div class="project-overlay">
+                  <div class="project-info">
+                    <h1>Flor 4</h1>
+                    <h3>Clique para ver!</h3>
+                  </div>
+                </div>
+              </a>
+            </div>
+          </div>
+          <div class="col-md-3 col-sm-6">
+            <!-- PEÇA -->
+            <div class="project-item">
+              <a href="images/bola.webp" class="image-popup">
+                <img
+                  src="images/thumbnails/bola.webp"
+                  class="img-responsive"
+                  alt="Bola de Vidro a lápis"
+                  loading="lazy"
+                />
+
+                <div class="project-overlay">
+                  <div class="project-info">
+                    <h1>Bola de Vidro</h1>
+                    <h3>Clique para ver!</h3>
+                  </div>
+                </div>
+              </a>
+            </div>
+          </div>
+          <div class="col-md-3 col-sm-6">
+            <!-- PEÇA -->
+            <div class="project-item">
+              <a href="images/mão-bebé.webp" class="image-popup">
+                <img
+                  src="images/thumbnails/mão-bebé.webp"
+                  class="img-responsive"
+                  alt="Mão de bebé"
+                  loading="lazy"
+                />
+
+                <div class="project-overlay">
+                  <div class="project-info">
+                    <h1>Mão de Bebé</h1>
+                    <h3>Clique para ver!</h3>
+                  </div>
+                </div>
+              </a>
+            </div>
+          </div>
+          <div class="col-md-3 col-sm-6">
+            <!-- PEÇA -->
+            <div class="project-item">
+              <a href="images/mulher-africana.webp" class="image-popup">
+                <img
+                  src="images/thumbnails/mulher-africana.webp"
+                  class="img-responsive"
+                  alt="Mulher Africana a lápis"
+                  loading="lazy"
+                />
+
+                <div class="project-overlay">
+                  <div class="project-info">
+                    <h1>Avó Maria Moreira</h1>
+                    <h3>Clique para ver!</h3>
+                  </div>
+                </div>
+              </a>
+            </div>
+          </div>
+          <div class="col-md-3 col-sm-6">
+            <!-- PEÇA -->
+            <div class="project-item">
+              <a href="images/mulher-anéis2.webp" class="image-popup">
+                <img
+                  src="images/thumbnails/mulher-anéis2.webp"
+                  class="img-responsive"
+                  alt="Mulher e seus Anéis"
+                  loading="lazy"
+                />
+
+                <div class="project-overlay">
+                  <div class="project-info">
+                    <h1>Mulher e seus Anéis</h1>
+                    <h3>Clique para ver!</h3>
+                  </div>
+                </div>
+              </a>
+            </div>
+          </div>
+
+          <div class="col-md-3 col-sm-6">
+            <!-- PEÇA -->
+            <div class="project-item">
+              <a href="images/retrato-homem2.webp" class="image-popup">
+                <img
+                  src="images/thumbnails/retrato-homem2.webp"
+                  class="img-responsive"
+                  alt="Retrato Homem Africano a lápis"
+                  loading="lazy"
+                />
+
+                <div class="project-overlay">
+                  <div class="project-info">
+                    <h1>Tio António Lisboa</h1>
+                    <h3>Clique para ver!</h3>
+                  </div>
+                </div>
+              </a>
+            </div>
+          </div>
+
+          <div class="col-md-3 col-sm-6">
+            <!-- PEÇA -->
+            <div class="project-item">
+              <a href="images/bailarina-pés.webp" class="image-popup">
+                <img
+                  src="images/thumbnails/bailarina-pés.webp"
+                  class="img-responsive"
+                  alt="Pés de bailarina"
+                  loading="lazy"
+                />
+                <!-- NÃO APARECE NO WEBSITE!!! -->
+                <div class="project-overlay">
+                  <div class="project-info">
+                    <h1>Pés de Bailarina</h1>
+                    <h3>Clique para ver!</h3>
+                  </div>
+                </div>
+              </a>
+            </div>
+          </div>
+          <div class="col-md-3 col-sm-6">
+            <!-- PEÇA -->
+            <div class="project-item">
+              <a href="images/bailarina-pés2.webp" class="image-popup">
+                <img
+                  src="images/thumbnails/bailarina-pés2.webp"
+                  class="img-responsive"
+                  alt="Pés de bailarina"
+                  loading="lazy"
+                />
+
+                <div class="project-overlay">
+                  <div class="project-info">
+                    <h1>Pés de bailarina 2</h1>
+                    <h3>Clique para ver!</h3>
+                  </div>
+                </div>
+              </a>
+            </div>
+          </div>
+
+          <div class="col-md-3 col-sm-6">
+            <!-- PEÇA -->
+            <div class="project-item">
+              <a href="images/mulher.webp" class="image-popup">
+                <img
+                  src="images/thumbnails/mulher.webp"
+                  class="img-responsive"
+                  alt="Mulher"
+                  loading="lazy"
+                />
+
+                <div class="project-overlay">
+                  <div class="project-info">
+                    <h1>Mulher 4</h1>
+                    <h3>Clique para ver!</h3>
+                  </div>
+                </div>
+              </a>
+            </div>
+          </div>
+          <div class="col-md-3 col-sm-6">
+            <!-- PEÇA -->
+            <div class="project-item">
+              <a href="images/rapariga feliz.webp" class="image-popup">
+                <img
+                  src="images/thumbnails/rapariga feliz.webp"
+                  class="img-responsive"
+                  alt="Rapariga feliz"
+                  loading="lazy"
+                />
+
+                <div class="project-overlay">
+                  <div class="project-info">
+                    <h1>Feliz</h1>
+                    <h3>Clique para ver!</h3>
+                  </div>
+                </div>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- PROJETOS -->
+    <section id="project" class="parallax-section">
+      <h2 class="title-collection">A Carvão</h2>
+      <div class="container">
+        <div class="row">
+          <div class="col-md-3 col-sm-6">
+            <!-- PEÇA -->
+            <div class="project-item">
+              <a href="images/onda.webp" class="image-popup">
+                <img
+                  src="images/thumbnails/onda.webp"
+                  class="img-responsive"
+                  alt="Onda a lápis"
+                  loading="lazy"
+                />
+
+                <div class="project-overlay">
+                  <div class="project-info">
+                    <h1>Mar Bravo</h1>
+                    <h3>Clique para ver!</h3>
+                  </div>
+                </div>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- PROJETOS -->
+    <section id="project" class="parallax-section">
+      <h2 class="title-collection">A Óleo</h2>
+      <div class="container">
+        <div class="row">
+          <div class="col-md-3 col-sm-6">
+            <!-- PEÇA -->
+            <div class="project-item">
+              <a href="images/luar.webp" class="image-popup">
+                <img
+                  src="images/thumbnails/luar.webp"
+                  class="img-responsive"
+                  alt="Lua a óleo"
+                  loading="lazy"
+                />
+
+                <div class="project-overlay">
+                  <div class="project-info">
+                    <h1>Luar</h1>
+                    <h3>Clique para ver!</h3>
+                  </div>
+                </div>
+              </a>
+            </div>
+          </div>
+          <div class="col-md-3 col-sm-6">
+            <!-- PEÇA -->
+            <div class="project-item">
+              <a href="images/Pai.webp" class="image-popup">
+                <img
+                  src="images/thumbnails/Pai.webp"
+                  class="img-responsive"
+                  alt="Retrato Homem a óleo"
+                  loading="lazy"
+                />
+
+                <div class="project-overlay">
+                  <div class="project-info">
+                    <h1>Pai</h1>
+                    <h3>Clique para ver!</h3>
+                  </div>
+                </div>
+              </a>
+            </div>
+          </div>
+          <div class="col-md-3 col-sm-6">
+            <!-- PEÇA -->
+            <div class="project-item">
+              <a href="images/retrato-rapaz.webp" class="image-popup">
+                <img
+                  src="images/thumbnails/retrato-rapaz.webp"
+                  class="img-responsive"
+                  alt="Retrato Rapaz"
+                  loading="lazy"
+                />
+
+                <div class="project-overlay">
+                  <div class="project-info">
+                    <h1>Retrato Rapaz</h1>
+                    <h3>Clique para ver!</h3>
+                  </div>
+                </div>
+              </a>
+            </div>
+          </div>
+
+          <div class="col-md-3 col-sm-6">
+            <!-- PEÇA -->
+            <div class="project-item">
+              <a href="images/pique-nique.webp" class="image-popup">
+                <img
+                  src="images/thumbnails/pique-nique.webp"
+                  class="img-responsive"
+                  alt="Pique-nique"
+                  loading="lazy"
+                />
+
+                <div class="project-overlay">
+                  <div class="project-info">
+                    <h1>Pique-nique</h1>
+                    <h3>Clique para ver!</h3>
+                  </div>
+                </div>
+              </a>
+            </div>
+          </div>
+          <div class="col-md-3 col-sm-6">
+            <!-- PEÇA -->
+            <div class="project-item">
+              <a href="images/cão2.webp" class="image-popup">
+                <img
+                  src="images/thumbnails/cão2.webp"
+                  class="img-responsive"
+                  alt="Cão a óleo"
+                  loading="lazy"
+                />
+
+                <div class="project-overlay">
+                  <div class="project-info">
+                    <h1>Cão 2</h1>
+                    <h3>Clique para ver!</h3>
+                  </div>
+                </div>
+              </a>
+            </div>
+          </div>
+          <div class="col-md-3 col-sm-6">
+            <!-- PEÇA -->
+            <div class="project-item">
+              <a href="images/2_mulheres_nuas.webp" class="image-popup">
+                <img
+                  src="images/thumbnails/2_mulheres_nuas.webp"
+                  class="img-responsive"
+                  alt="2 Mulheres no Jardim"
+                  loading="lazy"
+                />
+
+                <div class="project-overlay">
+                  <div class="project-info">
+                    <h1>2 Mulheres no Jardim</h1>
+                    <h3>Clique para ver!</h3>
+                  </div>
+                </div>
+              </a>
+            </div>
+          </div>
+          <div class="col-md-3 col-sm-6">
+            <!-- PEÇA -->
+            <div class="project-item">
+              <a href="images/mulher_nua.webp" class="image-popup">
+                <img
+                  src="images/thumbnails/mulher_nua.webp"
+                  class="img-responsive"
+                  alt="Mulher"
+                  loading="lazy"
+                />
+
+                <div class="project-overlay">
+                  <div class="project-info">
+                    <h1>Homenagem a Euan Uglow</h1>
+                    <h3>Clique para ver!</h3>
+                  </div>
+                </div>
+              </a>
+            </div>
+          </div>
+          <div class="col-md-3 col-sm-6">
+            <!-- PEÇA -->
+            <div class="project-item">
+              <a href="images/modelo_nua.webp" class="image-popup">
+                <img
+                  src="images/thumbnails/modelo_nua.webp"
+                  class="img-responsive"
+                  alt="Mulher Posando"
+                  loading="lazy"
+                />
+
+                <div class="project-overlay">
+                  <div class="project-info">
+                    <h1>Prima</h1>
+                    <h3>Clique para ver!</h3>
+                  </div>
+                </div>
+              </a>
+            </div>
+          </div>
+
+          <div class="col-md-3 col-sm-6">
+            <!-- PEÇA -->
+            <div class="project-item">
+              <a href="images/praia.webp" class="image-popup">
+                <img
+                  src="images/thumbnails/praia.webp"
+                  class="img-responsive"
+                  alt="Praia a óleo"
+                  loading="lazy"
+                />
+
+                <div class="project-overlay">
+                  <div class="project-info">
+                    <h1>Praia</h1>
+                    <h3>Clique para ver!</h3>
+                  </div>
+                </div>
+              </a>
+            </div>
+          </div>
+          <div class="col-md-3 col-sm-6">
+            <!-- PEÇA -->
+            <div class="project-item">
+              <a href="images/janela.webp" class="image-popup">
+                <img
+                  src="images/thumbnails/janela.webp"
+                  class="img-responsive"
+                  alt="Janela a óleo"
+                  loading="lazy"
+                />
+
+                <div class="project-overlay">
+                  <div class="project-info">
+                    <h1>Janela</h1>
+                    <h3>Clique para ver!</h3>
+                  </div>
+                </div>
+              </a>
+            </div>
+          </div>
+          <div class="col-md-3 col-sm-6">
+            <!-- PEÇA -->
+            <div class="project-item">
+              <a href="images/flores.webp" class="image-popup">
+                <img
+                  src="images/thumbnails/flores.webp"
+                  class="img-responsive"
+                  alt="Flores a óleo"
+                  loading="lazy"
+                />
+
+                <div class="project-overlay">
+                  <div class="project-info">
+                    <h1>Flores</h1>
+                    <h3>Clique para ver!</h3>
+                  </div>
+                </div>
+              </a>
+            </div>
+          </div>
+          <div class="col-md-3 col-sm-6">
+            <!-- PEÇA -->
+            <div class="project-item">
+              <a href="images/árvores ao rio.webp" class="image-popup">
+                <img
+                  src="images/thumbnails/árvores ao rio.webp"
+                  class="img-responsive"
+                  alt="Árvores ao rio"
+                  loading="lazy"
+                />
+
+                <div class="project-overlay">
+                  <div class="project-info">
+                    <h1>Árvores ao rio</h1>
+                    <h3>Clique para ver!</h3>
+                  </div>
+                </div>
+              </a>
+            </div>
+          </div>
+          <div class="col-md-3 col-sm-6">
+            <!-- PEÇA -->
+            <div class="project-item">
+              <a href="images/bolas.webp" class="image-popup">
+                <img
+                  src="images/thumbnails/bolas.webp"
+                  class="img-responsive"
+                  alt="Bolas"
+                  loading="lazy"
+                />
+
+                <div class="project-overlay">
+                  <div class="project-info">
+                    <h1>Bolas</h1>
+                    <h3>Clique para ver!</h3>
+                  </div>
+                </div>
+              </a>
+            </div>
+          </div>
+          <div class="col-md-3 col-sm-6">
+            <!-- PEÇA -->
+            <div class="project-item">
+              <a href="images/vinha.webp" class="image-popup">
+                <img
+                  src="images/thumbnails/vinha.webp"
+                  class="img-responsive"
+                  alt="Vinha"
+                  loading="lazy"
+                />
+
+                <div class="project-overlay">
+                  <div class="project-info">
+                    <h1>Vinha</h1>
+                    <h3>Clique para ver!</h3>
+                  </div>
+                </div>
+              </a>
+            </div>
+          </div>
+          <div class="col-md-3 col-sm-6">
+            <!-- PEÇA -->
+            <div class="project-item">
+              <a href="images/corrida veleiros.webp" class="image-popup">
+                <img
+                  src="images/thumbnails/corrida veleiros.webp"
+                  class="img-responsive"
+                  alt="Corrida de Veleiros"
+                  loading="lazy"
+                />
+
+                <div class="project-overlay">
+                  <div class="project-info">
+                    <h1>Corrida de Veleiros</h1>
+                    <h3>Clique para ver!</h3>
+                  </div>
+                </div>
+              </a>
+            </div>
+          </div>
+          <div class="col-md-3 col-sm-6">
+            <!-- PEÇA -->
+            <div class="project-item">
+              <a href="images/barco-verde.webp" class="image-popup">
+                <img
+                  src="images/thumbnails/barco-verde.webp"
+                  class="img-responsive"
+                  alt="Barco"
+                  loading="lazy"
+                />
+
+                <div class="project-overlay">
+                  <div class="project-info">
+                    <h1>Barco</h1>
+                    <h3>Clique para ver!</h3>
+                  </div>
+                </div>
+              </a>
+            </div>
+          </div>
+          <div class="col-md-3 col-sm-6">
+            <!-- PEÇA -->
+            <div class="project-item">
+              <a href="images/caminho.webp" class="image-popup">
+                <img
+                  src="images/thumbnails/caminho.webp"
+                  class="img-responsive"
+                  alt="Caminho"
+                  loading="lazy"
+                />
+
+                <div class="project-overlay">
+                  <div class="project-info">
+                    <h1>Caminho</h1>
+                    <h3>Clique para ver!</h3>
+                  </div>
+                </div>
+              </a>
+            </div>
+          </div>
+          <div class="col-md-3 col-sm-6">
+            <!-- PEÇA -->
+            <div class="project-item">
+              <a href="images/campo de trigo.webp" class="image-popup">
+                <img
+                  src="images/thumbnails/campo de trigo.webp"
+                  class="img-responsive"
+                  alt="Campo de Trigo"
+                  loading="lazy"
+                />
+
+                <div class="project-overlay">
+                  <div class="project-info">
+                    <h1>Homenagem a Van Gogh</h1>
+                    <h3>Clique para ver!</h3>
+                  </div>
+                </div>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- PROJETOS -->
+    <section id="project" class="parallax-section">
+      <h2 class="title-collection">A Pastel de Óleo</h2>
+      <div class="container">
+        <div class="row">
+          <div class="col-md-3 col-sm-6">
+            <!-- PEÇA -->
+            <div class="project-item">
+              <a href="images/mata.webp" class="image-popup">
+                <img
+                  src="images/thumbnails/mata.webp"
+                  class="img-responsive"
+                  alt="Mata a lápis de cera"
+                  loading="lazy"
+                />
+
+                <div class="project-overlay">
+                  <div class="project-info">
+                    <h1>Mata</h1>
+                    <h3>Clique para ver!</h3>
+                  </div>
+                </div>
+              </a>
+            </div>
+          </div>
+
+          <div class="col-md-3 col-sm-6">
+            <!-- PEÇA -->
+            <div class="project-item">
+              <a href="images/vaso_flores.webp" class="image-popup">
+                <img
+                  src="images/thumbnails/vaso_flores.webp"
+                  class="img-responsive"
+                  alt="Vaso com Flores"
+                  loading="lazy"
+                />
+
+                <div class="project-overlay">
+                  <div class="project-info">
+                    <h1>Vaso com Flores</h1>
+                    <h3>Clique para ver!</h3>
+                  </div>
+                </div>
+              </a>
+            </div>
+          </div>
+          <div class="col-md-3 col-sm-6">
+            <!-- PEÇA -->
+            <div class="project-item">
+              <a href="images/mulher_no_bar.webp" class="image-popup">
+                <img
+                  src="images/thumbnails/mulher_no_bar.webp"
+                  class="img-responsive"
+                  alt="Mulher no Bar"
+                  loading="lazy"
+                />
+
+                <div class="project-overlay">
+                  <div class="project-info">
+                    <h1>Homenagem a Édouard Manet</h1>
+                    <h3>Clique para ver!</h3>
+                  </div>
+                </div>
+              </a>
+            </div>
+          </div>
+          <div class="col-md-3 col-sm-6">
+            <!-- PEÇA -->
+            <div class="project-item">
+              <a href="images/sogro.webp" class="image-popup">
+                <img
+                  src="images/thumbnails/Sogro.webp"
+                  class="img-responsive"
+                  alt="Sogro a óleo"
+                  loading="lazy"
+                />
+
+                <div class="project-overlay">
+                  <div class="project-info">
+                    <h1>Sogro</h1>
+                    <h3>Clique para ver!</h3>
+                  </div>
+                </div>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- CONTACT -->
+    <section id="contact" class="parallax-section">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-offset-3 col-md-6 col-sm-12">
+            <div class="section-title">
+              <h1>Encomende a sua obra hoje!</h1>
+            </div>
+          </div>
+
+          <div class="clearfix"></div>
+
+          <div class="col-md-offset-2 col-md-8 col-sm-12">
+            <!-- CONTACT FORM HERE -->
+            <form
+              id="contact-form"
+              action="https://formsubmit.co/vfreire25@gmail.com"
+              method="POST"
+              role="form"
+            >
+              <!-- IF MAIL SENT SUCCESSFULLY -->
+              <h6 class="text-success">
+                A sua mensagem foi enviada com sucesso.
+              </h6>
+
+              <!-- IF MAIL SENDING UNSUCCESSFULL -->
+              <h6 class="text-danger">
+                O endereço electrónico deve ser válido e a mensagem devem ter
+                mais de um caractere.
+              </h6>
+
+              <div class="col-md-6 col-sm-6">
+                <input
+                  type="text"
+                  class="form-control"
+                  id="cf-name"
+                  name="cf-name"
+                  pattern="[A-Za-z\s]+"
+                  placeholder="Nome"
+                  required
+                />
+              </div>
+
+              <div class="col-md-6 col-sm-6">
+                <input
+                  type="email"
+                  class="form-control"
+                  id="cf-email"
+                  name="cf-email"
+                  placeholder="Endereço Eletrónico"
+                  required
+                />
+              </div>
+
+              <div class="col-md-12 col-sm-12">
+                <textarea
+                  class="form-control"
+                  rows="5"
+                  id="cf-message"
+                  name="cf-message"
+                  placeholder="Mensagem"
+                ></textarea>
+              </div>
+
+              <div class="col-md-offset-4 col-md-4 col-sm-offset-4 col-sm-4">
+                <div class="section-btn">
+                  <button
+                    type="submit"
+                    class="form-control"
+                    id="cf-submit"
+                    name="submit"
+                  >
+                    <span data-hover="Enviar">Enviar</span>
+                  </button>
+                </div>
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </section>
+  </body>
+  <!-- FOOTER -->
+  <footer>
+    <div class="container">
+      <div class="row">
+        <div class="col-md-5 col-sm-5">
+          <h2>Estúdio</h2>
+          <p>
+            Lumiar,<br />
+            Lisboa,<br />
+            Portugal
+          </p>
         </div>
 
-        <!-- Main Footer -->
-        <section
-          class="section-small-padding text-center background-dark full-width"
-        >
-          <div class="line">
-            <div class="margin">
-              <!-- Collumn 1 -->
-              <div class="s-12 m-12 l-4 margin-m-bottom-30">
-                <h3 class="text-size-16">Company Address</h3>
-                <p class="text-size-14">
-                  Responsive Street 7<br />
-                  London - United Kingdom<br />
-                  Europe
-                </p>
-              </div>
-              <!-- Collumn 2 -->
-              <div class="s-12 m-12 l-4 margin-m-bottom-30">
-                <h3 class="text-size-16">E-mail</h3>
-                <p class="text-size-14">
-                  contact@sampledomain.com<br />
-                  office@sampledomain.com
-                </p>
-              </div>
-              <!-- Collumn 3 -->
-              <div class="s-12 m-12 l-4">
-                <h3 class="text-size-16">Phone Numbers</h3>
-                <p class="text-size-14">
-                  0800 4521 800 50<br />
-                  0450 5896 625 16<br />
-                  0798 6546 465 15
-                </p>
-              </div>
-            </div>
+        <div class="col-md-4 col-sm-6">
+          <div class="footer-info">
+            <h2>Contactos</h2>
+            <p><a href="tel:(+351) 9x1234567">(+351) 9x1234567</a></p>
+            <p>
+              <a href="mailto:vfreire25[at]gmail.com">vfreire25[at]gmail.com</a>
+            </p>
+            <p><a href="#">Lisboa, Portugal</a></p>
           </div>
-        </section>
-        <hr
-          class="break margin-top-bottom-0"
-          style="border-color: rgba(0, 0, 0, 0.8)"
-        />
+        </div>
 
-        <!-- Bottom Footer -->
-        <section class="padding background-dark full-width">
-          <div class="text-center">
-            <p class="text-size-12">
-              Copyright 2019, Vision Design - graphic zoo
-            </p>
-            <p class="text-size-12">
-              All images is purchased from Bigstock. Do not use the images in
-              your website.
-            </p>
+        <div class="col-md-3 col-sm-12">
+          <h2>Sobre</h2>
+
+          <p>
+            Victoh é um artista português de renome. Tendo já exposto as suas
+            obras por várias vezes, agora decidiu partilhá-las com o mundo.
+          </p>
+          <ul class="social-icon">
+            <li><a href="#" class="fa fa-twitter"></a></li>
+            <li><a href="#" class="fa fa-facebook"></a></li>
+            <li><a href="#" class="fa fa-instagram"></a></li>
+            <li><a href="#" class="fa fa-linkedin"></a></li>
+          </ul>
+        </div>
+
+        <div class="clearfix"></div>
+
+        <div class="col-md-12 col-sm-12">
+          <div class="copyright-text">
+            <p>Zany Marketing &reg;</p>
           </div>
-        </section>
-      </footer>
+        </div>
+      </div>
     </div>
-    <script type="text/javascript" src="js/responsee.js"></script>
-    <script type="text/javascript" src="js/jquery.events.touch.js"></script>
-    <script type="text/javascript" src="owl-carousel/owl.carousel.js"></script>
-    <script type="text/javascript" src="js/template-scripts.js"></script>
-  </body>
+  </footer>
+
+  <!-- SCRIPTS -->
+  <script src="js/jquery.js"></script>
+  <script src="js/bootstrap.min.js"></script>
+  <script src="js/jquery.parallax.js"></script>
+  <script src="js/owl.carousel.min.js"></script>
+  <script src="js/jquery.magnific-popup.min.js"></script>
+  <script src="js/magnific-popup-options.js"></script>
+  <script src="js/modernizr.custom.js"></script>
+  <script src="js/smoothscroll.js"></script>
+  <script src="js/custom.js"></script>
 </html>
